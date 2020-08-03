@@ -16,7 +16,7 @@ body{
     text-decoration: none;
     color: #a14438;
     padding: 20px;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 900;
     
     
@@ -25,6 +25,7 @@ body{
 #navbar a:hover{
     background-color: #e6ebe0;
     color: #286064 ;
+    border-radius: 5px;
 
 }
 #Welcome-section{
@@ -34,52 +35,54 @@ body{
 }
 /* titulo */
 #Welcome-section h1{
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     color: #e6ebe0;
-    margin: 200px 0px 0px 0px;
+    margin: 180px 150px 0px 0px;
+    padding: 40px;
 }
 #Welcome-section h2{
     color: #e6ebe0;
     text-align: center;
-    margin: 0px 10px 10px 10px;
-    font-size: 50px;  
+    margin: -40px 150px 0px 0px;
+    font-size: 30px;  
 }
 /* imagen */
 #Welcome-section img{
-   width: 15%;
+   width: 16%;
    border-radius: 50%;
    border:7px solid #224a4d;
    flex-direction: column;
    align-self: flex-end; 
-   margin: -10px 30px 20px 10px; 
+   margin: -150px 30px 20px 10px; 
 }
 
 #Welcome-section p{
     flex-direction: column;
     text-align-last: left;
-    margin: -300px 300px 200px 150px;
-    padding: 30px;
-    font-size: 50px;
+    margin: -150px 300px 200px 150px;
+    padding: 10px;
+    font-size: 30px;
     color: rgb(206, 203, 126);
     font-weight: 900;
 }
 #proyect-title h2{
-    margin-top: 200px;
-    padding: 30px;
+    margin: 20px 10px 10px 10px;
     display: flex;
     justify-content: center;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 900;
     color: #e6ebe0;
     background-color: #71aca4;
     align-items: flex-start;
+    border-radius: 10px;
 }
 #Projects2 {
-    padding: 40px;
+
     display: grid;
+    border-radius: 5px;
     background-color: #0e2a2c;
-    width: 102%;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
@@ -88,38 +91,38 @@ body{
 }
 
 #Projects2 h3{
-    font-size: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Projects2 img{
-    width: 900px;
+    width: 400px;
     display: flex;
     justify-content: center;
     border: 1px solid black;
     align-items: center;
     margin: 10px;
     
-
-
 }
 #Projects2 #pro1{
     grid-area: pro1;
     background-color: #71aca4;
-    width: 900px;
+    width: 410px;
     display: flex;
     align-items: center;
-    margin: 10px;
     flex-direction: column;
     justify-content: center;
     border: 8px solid #2c5d61;
     border-radius: 10px;
-    margin-top: 0px;
-    height: 800px;
+    margin: 10px -0px 2px 100px;
+    height: 500px;
 }
 #Projects2 #pro2{
     grid-area: pro2;
     background-color: #71aca4;
-    width: 900px;
+    width: 410px;
     display: flex;
     align-items: center;
     margin: 10px;
@@ -127,25 +130,26 @@ body{
     justify-content: center;
     border: 8px solid #2c5d61;
     border-radius: 10px;
-    height: 800px;
+    height: 500px;
+    margin: 10px 0px 2px 50px;
 }
 #Projects2 #pro3{
     grid-area: pro3;
     background-color: #71aca4;
-    width: 900px;
+    width: 410px;
     display: flex;
     align-items: center;
-    margin: 10px;
     flex-direction: column;
     justify-content: center;
     border: 8px solid #2c5d61;
     border-radius: 10px;
-    height: 800px;
+    margin: 10px -0px 2px 100px;
+    height: 500px;
 }
 #Projects2 #pro4{
     grid-area: pro4;
     background-color: #71aca4;
-    width: 900px;
+    width: 410px;
     display: flex;
     align-items: center;
     margin: 10px;
@@ -153,24 +157,29 @@ body{
     justify-content: center;
     border: 8px solid #2c5d61;
     border-radius: 10px;
-    height: 800px;
+    height: 500px;
+    margin: 10px 0px 2px 50px;
 } 
 #button-div{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 20px;
-
+    align-items: center;
+    margin: 10px;
 }
 
 #button-div button{
     padding: 5px 20px;
     font-size: 25px;
     border: none;
-    background-color: #286064;
-    color: white;  
+    background-color: #88f7ff;
+    color: #489297;
+    text-align: center;
+    border-radius: 5px;
 }
 
+#button-div button:hover{
+    cursor: pointer;
+}
 
 #contact{
     height: 100vh;
