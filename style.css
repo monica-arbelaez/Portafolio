@@ -64,7 +64,7 @@ body{
    align-self: flex-end; 
    margin: -150px 30px 20px 10px; 
 }
-
+/* sobre mi */
 #Welcome-section p{
     flex-direction: column;
     text-align-last: left;
@@ -103,7 +103,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+/* imagenes sobre los proyectos */
 #Projects2 img{
     width: 400px;
     display: flex;
@@ -113,6 +113,7 @@ body{
     margin: 10px;
     
 }
+/* proyectos */
 #Projects2 #pro1{
     grid-area: pro1;
     background-color: #71aca4;
@@ -167,6 +168,7 @@ body{
     height: 430px;
     margin: 10px 0px 2px 50px;
 } 
+/* boton show all */
 #button-div{
     display: flex;
     justify-content: center;
@@ -187,7 +189,7 @@ body{
 #button-div button:hover{
     cursor: pointer;
 }
-
+/* contacto */
 #contact{
     height: 100vh;
     background-color: #489297;
